@@ -56,7 +56,7 @@ BizBot is a powerful GenAI-driven web application that transforms boring busines
 
 🔌 Backend (FastAPI)
 
-git clone https://github.com/yourusername/bizbot.git
+git clone https://github.com/siddhhhh/bizbot.git
 
 cd bizbot/backend
 

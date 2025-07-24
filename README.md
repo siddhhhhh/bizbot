@@ -1,8 +1,8 @@
 # 💼 BizBot — Your Smart PDF Analyst
 
-BizBot is a powerful GenAI-driven web application that transforms boring business documents into intelligent, interactive insights. Upload a PDF and unlock summaries, Q&A sessions, image previews, and even voice narrations — all in one clean, fast, and beautiful interface.
+BizBot is a powerful GenAI-driven web application that transforms boring business documents into intelligent, interactive insights. Upload a PDF and unlock summaries, Q&A sessions, image previews, and even voice narrations — all in one clean, fast, and beautiful interface. BizBot isn't just another PDF summarizer — it’s a day-to-day business assistant with LLM brains, audio personality, and visual understanding. Use it for reports, financial docs, meeting minutes, research papers — anything.
 
-![BizBot Banner](https://user-images.githubusercontent.com/yourusername/banner-placeholder.png) <!-- Optional: Replace with your banner -->
+<!-- Optional: Replace with your banner -->
 
 ---
 
@@ -38,23 +38,30 @@ BizBot is a powerful GenAI-driven web application that transforms boring busines
 
 ---
 
-📦 Folder Structure (Backend)
+ 🧼Bonus Utilities
+ 
+✅ Clear Chat button to reset history
 
-bizbot-backend/
-│
-├── main.py               # FastAPI app with all routes
-├── llm_utils.py          # LLM interaction + text-to-speech
-├── pdf_utils.py          # PDF text + image extraction logic
-├── extracted_images/     # All images saved here
-├── summary.pdf           # Auto-generated summary file
-├── summary-audio.mp3     # Summary narration
-├── last-answer-audio.mp3 # Answer narration
+🔊 Hear Answer button for every reply
+
+🔊 Hear Summary for narrated overview
+
+📄 Download Summary for offline sharing
+
+🖼️ Image Viewer from PDF pages
+
+
 
 🧑‍💻 Setup Instructions
+
 🔌 Backend (FastAPI)
+
 git clone https://github.com/yourusername/bizbot.git
+
 cd bizbot/backend
+
 pip install -r requirements.txt
+
 
 # Start backend
 uvicorn main:app --reload
@@ -65,5 +72,7 @@ GROQ_API_KEY=your_groq_key
 🖥️ Frontend (Next.js with Vercel v0)
 
 cd bizbot/frontend
+
 npm install
+
 npm run dev

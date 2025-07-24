@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+requests
+gtts
+fpdf
+python-dotenv
+PyPDF2  # or pdfplumber, depending on pdf_utils implementation
+google-generativeai
